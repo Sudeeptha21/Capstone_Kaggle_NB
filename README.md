@@ -7,7 +7,8 @@ The notebook begins by exploring the application_train.csv file, which contains 
 4. Data Cleaning and Wrangling
 5. Correlation Heatmap
 6. Modelling
-7. Summary and Overall Insights with Ethical Considerations
+7. Challend=ges
+8. Conclusion
 
 ## Objectives
 Understand the target variable (TARGET):
@@ -22,18 +23,30 @@ Check the score of the model by using: accuracy, confusion matrix, and a ROC/AUC
 - Outliers were removed in certain columns like Children
 - Downsampled the data in order to achieve better accuracy since the dataset was heavily imbalanced 
 
-
 ### The Top 3 Negative predictors of Default are: 
-
-EXT_SOURCE_2 & EXT_SOURCE_3: having a decent credit score is likely to decrease the chance of default. This makes sense as its a solid predictor of credit worthiness
-CODE_GENDER_F: It appears that females are less likely to default than males.
+- EXT_SOURCE_2 & EXT_SOURCE_3: having a decent credit score is likely to decrease the chance of default. This makes sense as its a solid predictor of credit worthiness
+- CODE_GENDER_F: It appears that females are less likely to default than males.
 
 ### he Top 3 Positive predictors of Default are:
+- Days_birth: Older individuals are more likely to default. 
+- Name_Income_Type_Working: Clients who are employees rather than business owners are more likely to default. 
+- DAYS_Last_Phone_Change: Clients that have recently changed their phone numbers are at a higher default risk. 
 
-Days_birth: Older individuals are more likely to default. 
-Name_Income_Type_Working: Clients who are employees rather than business owners are more likely to default. 
-DAYS_Last_Phone_Change: Clients that have recently changed their phone numbers are at a higher default risk. 
+## Modelling
+- CATBOOST Model which gave a 70 percent accuracy compared to other models like logistic regression model and random forest model.
+- Fast and reliable with high accuracy.
+- Best for evaluating non linear parameters and giving the best decisison in case of classification problems.
+
+### Evaluation Metric:
+- Used confusion matrix, which is ideal for evaluating imbalanced classification problems.
+
+## Challenges 
+- Severe Class Imbalance: Only about 8% of applicants defaulted so downsampling was necessary.
+-Missing Data: Many columns had >60% missing values, requiring careful dropping or imputation.
+
+## Key Learnings and Conclusion
+- Importance of designing transparent models with financial inclusion is the goal.
+- Integrating with Ai would automate the model and increase efficiency.
+- Personlaised loan offers and transparent communication would reduce financial losses.
 
 
-## Best model
-CATBOOST Model which gave a 70 percent accuracy compared to other models like logistic regression model and random forest model.
