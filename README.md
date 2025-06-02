@@ -11,10 +11,10 @@ The notebook begins by exploring the application_train.csv file, which contains 
 8. Conclusion
 
 ## Objectives
-Understand the target variable (TARGET):
-Identify important predictors using statistics and visualizations.
-Create and train a Logistic Regression model
-Check the score of the model by using: accuracy, confusion matrix, and a ROC/AUC score.
+1. Understand the target variable (TARGET).
+2. Identify important predictors using statistics and visualizations.
+3. Create and train a Logistic Regression model
+4. Check the score of the model using: accuracy, confusion matrix, and a ROC/AUC score.
 
 ## Data Cleaning and Wrangling
 - Null values exceeding 60% had their columns dropped.
