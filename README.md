@@ -7,7 +7,7 @@ The notebook begins by exploring the application_train.csv file, which contains 
 4. Data Cleaning and Wrangling
 5. Correlation Heatmap
 6. Modelling
-7. Challend=ges
+7. Challenges
 8. Conclusion
 
 ## Objectives
