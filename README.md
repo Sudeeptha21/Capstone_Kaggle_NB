@@ -27,7 +27,7 @@ Check the score of the model by using: accuracy, confusion matrix, and a ROC/AUC
 - EXT_SOURCE_2 & EXT_SOURCE_3: having a decent credit score is likely to decrease the chance of default. This makes sense as its a solid predictor of credit worthiness
 - CODE_GENDER_F: It appears that females are less likely to default than males.
 
-### he Top 3 Positive predictors of Default are:
+### The Top 3 Positive predictors of Default are:
 - Days_birth: Older individuals are more likely to default. 
 - Name_Income_Type_Working: Clients who are employees rather than business owners are more likely to default. 
 - DAYS_Last_Phone_Change: Clients that have recently changed their phone numbers are at a higher default risk. 
@@ -47,6 +47,6 @@ Check the score of the model by using: accuracy, confusion matrix, and a ROC/AUC
 ## Key Learnings and Conclusion
 - Importance of designing transparent models with financial inclusion is the goal.
 - Integrating with Ai would automate the model and increase efficiency.
-- Personlaised loan offers and transparent communication would reduce financial losses.
+- Personlized loan offers and transparent communication would reduce financial losses.
 
 
